@@ -1,0 +1,61 @@
+.buy h3 {
+	font-weight: normal;
+}
+
+.buy p {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.payments h3 {
+	font-weight: bold;
+	margin-right: 45px;
+}
+
+.payments h3:last-child {
+	margin-right: 0px;
+}
+
+.payments {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.buy p {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.payments {
+		flex-direction: column;
+	}
+	.payments h3 {
+		margin-right: 0px;
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
